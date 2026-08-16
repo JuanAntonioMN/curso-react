@@ -1,0 +1,63 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="div-app"
+  >
+    <h1>
+      Juan Antonio
+    </h1>
+    <h3>
+      Maldonado Nepomuceno
+    </h3>
+    <p
+      class="my-class-favorite"
+    >
+      Elden Ring,Smash,Metal Gear
+    </p>
+    <p>
+      suma: 
+      3
+    </p>
+    <p>
+      No activo
+    </p>
+    <p
+      style="background-color: red; font-size: 1rem; padding: 4px; margin-top: 29px;"
+    >
+      {"ciudad":"Aguascalientes","pais":"Mexico"}
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MyAwesomeApp > should match snapshot 2`] = `
+<div
+  data-testid="div-app"
+>
+  <h1>
+    Juan Antonio
+  </h1>
+  <h3>
+    Maldonado Nepomuceno
+  </h3>
+  <p
+    class="my-class-favorite"
+  >
+    Elden Ring,Smash,Metal Gear
+  </p>
+  <p>
+    suma: 
+    3
+  </p>
+  <p>
+    No activo
+  </p>
+  <p
+    style="background-color: red; font-size: 1rem; padding: 4px; margin-top: 29px;"
+  >
+    {"ciudad":"Aguascalientes","pais":"Mexico"}
+  </p>
+</div>
+`;
